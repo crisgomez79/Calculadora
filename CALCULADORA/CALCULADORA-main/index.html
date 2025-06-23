@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora Cristina</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="calculator">
+    <input type="text" id="display" disabled placeholder="0">
+
+    <div class="buttons-grid">
+      <button data-action="clear" class="operator">AC</button>
+      <button data-action="delete" class="operator">DE</button>
+      <button data-action="decimal" class="operator">.</button>
+      <button data-action="operator">/</button>
+
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button data-action="operator">*</button>
+
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button data-action="operator">-</button>
+
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button data-action="operator">+</button>
+
+      <button>00</button>
+      <button>0</button>
+      <button data-action="equals" class="equal operator">=</button>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
